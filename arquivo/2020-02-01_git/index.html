@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Introdução ao Git e configuração utilizando o GitHub e RStudio :: Panorama de Dados</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Introdução O que é o Git?  O Git é um sistema de controle de versões, utilizado principalmente nas áreas de programação e análise de dados.
+ Ele gerencia a evolução de um conjunto de arquivos - chamado de repositório - de forma altamente estruturada.
+  E o que é o GitHub?  É a maior plataforma de hospedagem de repositórios.
+ Fica muito mais fácil trabalhar com programação e análise de dados com os repositórios salvos na nuvem, pois dessa forma é possível acessá-los de qualquer computador."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://panoramadedados.github.io/arquivo/2020-02-01_git/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://panoramadedados.github.io/assets/style.css">
+
+
+<link rel="stylesheet" href="https://panoramadedados.github.io/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://panoramadedados.github.io/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://panoramadedados.github.io/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Introdução ao Git e configuração utilizando o GitHub e RStudio"/>
+<meta name="twitter:description" content="Introdução O que é o Git?  O Git é um sistema de controle de versões, utilizado principalmente nas áreas de programação e análise de dados.
+ Ele gerencia a evolução de um conjunto de arquivos - chamado de repositório - de forma altamente estruturada.
+  E o que é o GitHub?  É a maior plataforma de hospedagem de repositórios.
+ Fica muito mais fácil trabalhar com programação e análise de dados com os repositórios salvos na nuvem, pois dessa forma é possível acessá-los de qualquer computador."/>
+
+
+
+<meta property="og:title" content="Introdução ao Git e configuração utilizando o GitHub e RStudio" />
+<meta property="og:description" content="Introdução O que é o Git?  O Git é um sistema de controle de versões, utilizado principalmente nas áreas de programação e análise de dados.
+ Ele gerencia a evolução de um conjunto de arquivos - chamado de repositório - de forma altamente estruturada.
+  E o que é o GitHub?  É a maior plataforma de hospedagem de repositórios.
+ Fica muito mais fácil trabalhar com programação e análise de dados com os repositórios salvos na nuvem, pois dessa forma é possível acessá-los de qualquer computador." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://panoramadedados.github.io/arquivo/2020-02-01_git/" />
+<meta property="article:published_time" content="2020-02-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-01T00:00:00+00:00" /><meta property="og:site_name" content="Panorama de Dados" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Panorama de Dados</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/arquivo">Arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre">Sobre</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/arquivo">Arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre">Sobre</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h2 class="post-title"><a href="https://panoramadedados.github.io/arquivo/2020-02-01_git/">Introdução ao Git e configuração utilizando o GitHub e RStudio</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2020-02-01
+        </span>
+
+        
+      
+
+      <span class="post-author">— Escrito por Luis Felipe Cunha</span>
+      
+    </div>
+
+    
+
+    
+      
+        <img src="https://panoramadedados.github.io/img/0_fluxo.png" class="post-cover" />
+      
+    
+
+    <div class="post-content">
+      
+
+<h2 id="introdução">Introdução</h2>
+
+<h3 id="o-que-é-o-git">O que é o Git?</h3>
+
+<ul>
+<li><p>O Git é um sistema de controle de versões, utilizado principalmente nas áreas de programação e análise de dados.</p></li>
+
+<li><p>Ele gerencia a evolução de um conjunto de arquivos - chamado de repositório - de forma altamente estruturada.</p></li>
+</ul>
+
+<h3 id="e-o-que-é-o-github">E o que é o GitHub?</h3>
+
+<ul>
+<li><p>É a maior plataforma de hospedagem de repositórios.</p></li>
+
+<li><p>Fica muito mais fácil trabalhar com programação e análise de dados com os repositórios salvos na nuvem, pois dessa forma é possível acessá-los de qualquer computador.</p></li>
+
+<li><p>Funciona da mesma forma que outras plataformas de hospedagem (como o DropBox, OneDrive ou Google Drive), mas com muito mais funcionalidades, como a integração com o Git.</p></li>
+
+<li><p>Além disso, pode funcionar como um portfólio para programadores e analistas de dados.</p></li>
+</ul>
+
+<h3 id="vantagens">Vantagens</h3>
+
+<ul>
+<li><p>Controle de versões:</p></li>
+
+<li><p>Colaboração:</p></li>
+
+<li><p>Exposição:</p></li>
+</ul>
+
+<h3 id="pré-requisitos">Pré-requisitos</h3>
+
+<ul>
+<li>Espera-se que você já tenha alguma familiaridade com a linguagem de programação R e o ambiente RStudio.</li>
+</ul>
+
+<h2 id="configuração-do-git-utilizando-o-github-e-rstudio">Configuração do Git utilizando o GitHub e RStudio</h2>
+
+<p>Vai doer. Mas o Git só precisa ser configurado uma vez por computador/usuário.</p>
+
+<h3 id="download-e-instalação">Download e instalação</h3>
+
+<p>Primeiro, você precisa <a href="https://git-scm.com/downloads">baixar o Git</a>.</p>
+
+<p><img src="https://raw.githubusercontent.com/panoramadedados/panoramadedados.github.io/master/img/1_download_git.png" alt="" /></p>
+
+<p>E seguir as instruções para a instalação do programa.</p>
+
+<p><img src="https://raw.githubusercontent.com/panoramadedados/panoramadedados.github.io/master/img/2_instalacao_git.gif" alt="" /></p>
+
+<h3 id="configuração">Configuração</h3>
+
+<p>O git funciona como uma linguagem de programação integrada ao prompt de comando (ou bash, ou shell, ou terminal, dependendo do seu sistema operacional). Abra o prompt de comando no seu computador e digite o comando abaixo para verificar qual versão do Git foi instalada.</p>
+
+<pre><code class="language-bash">git --version
+</code></pre>
+
+<p>#<code>{bash}
+#git config --global user.name
+#</code></p>
+
+<p>#<code>{bash}
+#git config --global user.email
+#</code></p>
+
+<p>A partir dos comandos abaixo é possível descobrir qual é o nome de usuário e qual é o e-mail que estão configurados no seu computador, respectivamente.</p>
+
+<pre><code class="language-bash">git config user.name
+</code></pre>
+
+<pre><code class="language-bash">git config user.email
+</code></pre>
+
+<pre><code class="language-bash">git config list
+</code></pre>
+
+<p>#<code>{bash}
+#git config --global --unset http.proxy
+#</code></p>
+
+<p>#<code>{bash}
+#git config --global --unset https.proxy
+#</code></p>
+
+<p>#<code>{bash}
+#git config --global --unset-all credential.helper
+#</code></p>
+
+<p>#<code>{bash}
+#git config --global credential.helper store
+#</code></p>
+
+<h2 id="fluxo-de-trabalho-com-o-git">Fluxo de trabalho com o Git</h2>
+
+<h2 id="referências">Referências</h2>
+
+<p><a href="https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/#6">https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/#6</a></p>
+
+<p><a href="https://www.curso-r.com/blog/2019-07-23-zen-do-r-4/">https://www.curso-r.com/blog/2019-07-23-zen-do-r-4/</a></p>
+
+<p><a href="https://happygitwithr.com/">https://happygitwithr.com/</a></p>
+
+    </div>
+    
+
+
+    
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Panorama de Dados</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://panoramadedados.github.io/assets/main.js"></script>
+<script src="https://panoramadedados.github.io/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

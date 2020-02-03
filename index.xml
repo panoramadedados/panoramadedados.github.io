@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panorama de Dados</title>
+    <link>https://panoramadedados.github.io/</link>
+    <description>Recent content on Panorama de Dados</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://panoramadedados.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Este é um novo teste</title>
+      <link>https://panoramadedados.github.io/arquivo/teste3/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/arquivo/teste3/</guid>
+      <description>Mais um teste.</description>
+    </item>
+    
+    <item>
+      <title>Novo teste</title>
+      <link>https://panoramadedados.github.io/arquivo/teste2/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/arquivo/teste2/</guid>
+      <description>Mais um teste.</description>
+    </item>
+    
+    <item>
+      <title>Teste</title>
+      <link>https://panoramadedados.github.io/arquivo/teste/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/arquivo/teste/</guid>
+      <description>Mais um teste.</description>
+    </item>
+    
+    <item>
+      <title>Último teste</title>
+      <link>https://panoramadedados.github.io/arquivo/teste4/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/arquivo/teste4/</guid>
+      <description>Mais um teste.</description>
+    </item>
+    
+    <item>
+      <title>Introdução ao Git e configuração utilizando o GitHub e RStudio</title>
+      <link>https://panoramadedados.github.io/arquivo/2020-02-01_git/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/arquivo/2020-02-01_git/</guid>
+      <description>Introdução O que é o Git?  O Git é um sistema de controle de versões, utilizado principalmente nas áreas de programação e análise de dados.
+ Ele gerencia a evolução de um conjunto de arquivos - chamado de repositório - de forma altamente estruturada.
+  E o que é o GitHub?  É a maior plataforma de hospedagem de repositórios.
+ Fica muito mais fácil trabalhar com programação e análise de dados com os repositórios salvos na nuvem, pois dessa forma é possível acessá-los de qualquer computador.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://panoramadedados.github.io/portfolio/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/portfolio/</guid>
+      <description>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.</description>
+    </item>
+    
+    <item>
+      <title>Hello Friend</title>
+      <link>https://panoramadedados.github.io/arquivo/2019-01-01_hello/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/arquivo/2019-01-01_hello/</guid>
+      <description> &amp;ldquo;Hello, friend?&amp;rdquo; That&amp;rsquo;s lame. Maybe I should give you a name&amp;hellip; But that&amp;rsquo;s a slippery slope. You&amp;rsquo;re only in my head. We have to remember that&amp;hellip; Shit. It&amp;rsquo;s actually happened. I&amp;rsquo;m talking to an imaginary person.
+— Mr. Robot S01E01
+ </description>
+    </item>
+    
+    <item>
+      <title>Arquivo</title>
+      <link>https://panoramadedados.github.io/arquivo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/arquivo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://panoramadedados.github.io/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://panoramadedados.github.io/sobre/</guid>
+      <description>Bem-vindo ao Panorama de Dados My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.
+We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+This theme is pretty basic and covers all of the essentials.</description>
+    </item>
+    
+  </channel>
+</rss>
