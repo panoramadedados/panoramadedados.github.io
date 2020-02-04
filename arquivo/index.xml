@@ -6,6 +6,7 @@
     <description>Recent content in Arquivos on Panorama de Dados</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://panoramadedados.github.io/arquivo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>Introdução ao Git utilizando o GitHub e o RStudio</title>
       <link>https://panoramadedados.github.io/arquivo/2020-02-01_git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://panoramadedados.github.io/arquivo/2020-02-01_git/</guid>
       <description>Esta publicação foi escrita com o objetivo de apresentar o sistema de controle de versões Git, auxiliar em sua configuração utilizando a plataforma GitHub e demonstrar o fluxo de trabalho básico a partir da interface gráfica do ambiente RStudio.
